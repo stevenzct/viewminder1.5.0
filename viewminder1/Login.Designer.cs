@@ -192,6 +192,7 @@
             this.guna2TextBox5.ShadowDecoration.Parent = this.guna2TextBox5;
             this.guna2TextBox5.Size = new System.Drawing.Size(417, 46);
             this.guna2TextBox5.TabIndex = 9;
+            this.guna2TextBox5.TextChanged += new System.EventHandler(this.Guna2TextBox5_TextChanged);
             // 
             // guna2TextBox6
             // 
