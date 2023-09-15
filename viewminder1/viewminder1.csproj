@@ -40,6 +40,7 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Messaging" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -107,6 +108,12 @@
     <Compile Include="Watching.Designer.cs">
       <DependentUpon>Watching.cs</DependentUpon>
     </Compile>
+    <Compile Include="wrong_credentials.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wrong_credentials.Designer.cs">
+      <DependentUpon>wrong_credentials.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Archive.resx">
       <DependentUpon>Archive.cs</DependentUpon>
     </EmbeddedResource>
@@ -143,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Watching.resx">
       <DependentUpon>Watching.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wrong_credentials.resx">
+      <DependentUpon>wrong_credentials.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -216,6 +226,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\primary-background-login2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-symbols_cancel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

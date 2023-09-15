@@ -46,7 +46,7 @@ namespace viewminder1
         private void Guna2Button2_Click(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\steve\Documents\Admin.mdf;Integrated Security=True;Connect Timeout=30");
-            SqlDataAdapter sda = new SqlDataAdapter("Select count(*) from login1 where username = '" + guna2TextBox5 + "' and password = '" + guna2TextBox4 + "'" , conn);
+            SqlDataAdapter sda = new SqlDataAdapter("Select count(*) from login1 where id = '" + guna2TextBox6.Text + "' and username = '" + guna2TextBox5.Text + "' and password = '" + guna2TextBox4.Text + "'" , conn);
             DataTable dt = new DataTable();
             sda.Fill(dt);
             if (dt.Rows[0][0].ToString() == "1")
@@ -56,8 +56,9 @@ namespace viewminder1
                 main.Show();
             }
             else
-            { 
-                MessageBox.Show("Wrong credentials, please try again");
+            {
+                wrong_credentials w = new wrong_credentials();
+                w.Show();
             }
         }
 
@@ -72,6 +73,11 @@ namespace viewminder1
         }
 
         private void Guna2TextBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Guna2Button1_Click_1(object sender, EventArgs e)
         {
 
         }

@@ -60,3 +60,4 @@ C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewm
 C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.csproj.CopyComplete
 C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.exe
 C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.pdb
+C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.wrong_credentials.resources
