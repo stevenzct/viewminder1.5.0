@@ -66,3 +66,5 @@ C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewm
 C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.passwordNotMatch.resources
 C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.resetSuccess.resources
 C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.wrongCode.resources
+C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.incorrectEmail.resources
+C:\Users\steve\Downloads\viewminder1.5\viewminder1.5\viewminder1\obj\Debug\viewminder1.verifyCode.resources

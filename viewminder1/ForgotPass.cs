@@ -29,7 +29,7 @@ namespace viewminder1
 
         private void Guna2Button2_Click(object sender, EventArgs e)
         {
-
+                
         }
 
         private void Guna2ShadowPanel1_Paint(object sender, PaintEventArgs e)

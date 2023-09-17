@@ -58,6 +58,12 @@
     <Compile Include="Archive.Designer.cs">
       <DependentUpon>Archive.cs</DependentUpon>
     </Compile>
+    <Compile Include="incorrectEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="incorrectEmail.Designer.cs">
+      <DependentUpon>incorrectEmail.cs</DependentUpon>
+    </Compile>
     <Compile Include="ForgotPass.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,13 @@
     <Compile Include="Sms.Designer.cs">
       <DependentUpon>Sms.cs</DependentUpon>
     </Compile>
+    <Compile Include="txtEmail\Text.cs" />
+    <Compile Include="verifyCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verifyCode.Designer.cs">
+      <DependentUpon>verifyCode.cs</DependentUpon>
+    </Compile>
     <Compile Include="Watching.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +159,9 @@
     </Compile>
     <EmbeddedResource Include="Archive.resx">
       <DependentUpon>Archive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="incorrectEmail.resx">
+      <DependentUpon>incorrectEmail.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ForgotPass.resx">
       <DependentUpon>ForgotPass.cs</DependentUpon>
@@ -189,6 +205,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sms.resx">
       <DependentUpon>Sms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verifyCode.resx">
+      <DependentUpon>verifyCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Watching.resx">
       <DependentUpon>Watching.cs</DependentUpon>
