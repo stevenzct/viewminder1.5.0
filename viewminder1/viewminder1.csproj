@@ -70,6 +70,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewPassword.Designer.cs">
+      <DependentUpon>NewPassword.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,18 @@
     <Compile Include="Notification.Designer.cs">
       <DependentUpon>Notification.cs</DependentUpon>
     </Compile>
+    <Compile Include="codeSentSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codeSentSuccess.Designer.cs">
+      <DependentUpon>codeSentSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="passwordNotMatch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="passwordNotMatch.Designer.cs">
+      <DependentUpon>passwordNotMatch.cs</DependentUpon>
+    </Compile>
     <Compile Include="Profile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +114,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="resetSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="resetSuccess.Designer.cs">
+      <DependentUpon>resetSuccess.cs</DependentUpon>
+    </Compile>
     <Compile Include="Sms.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +131,12 @@
     </Compile>
     <Compile Include="Watching.Designer.cs">
       <DependentUpon>Watching.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wrongCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wrongCode.Designer.cs">
+      <DependentUpon>wrongCode.cs</DependentUpon>
     </Compile>
     <Compile Include="wrong_credentials.cs">
       <SubType>Form</SubType>
@@ -129,8 +159,17 @@
     <EmbeddedResource Include="Logout.resx">
       <DependentUpon>Logout.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewPassword.resx">
+      <DependentUpon>NewPassword.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Notification.resx">
       <DependentUpon>Notification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codeSentSuccess.resx">
+      <DependentUpon>codeSentSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="passwordNotMatch.resx">
+      <DependentUpon>passwordNotMatch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
@@ -145,11 +184,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="resetSuccess.resx">
+      <DependentUpon>resetSuccess.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sms.resx">
       <DependentUpon>Sms.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Watching.resx">
       <DependentUpon>Watching.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wrongCode.resx">
+      <DependentUpon>wrongCode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="wrong_credentials.resx">
       <DependentUpon>wrong_credentials.cs</DependentUpon>
@@ -229,6 +274,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\material-symbols_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-symbols_check-circle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -203,6 +203,16 @@ namespace viewminder1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap material_symbols_check_circle {
+            get {
+                object obj = ResourceManager.GetObject("material-symbols_check-circle", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap material_symbols_sms_sharp {
             get {
                 object obj = ResourceManager.GetObject("material-symbols_sms-sharp", resourceCulture);

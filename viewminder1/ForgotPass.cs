@@ -39,6 +39,13 @@ namespace viewminder1
 
         private void LinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            Login lg = new Login();
+            this.Hide();
+            lg.Show();
+        }
+
+        private void Guna2HtmlLabel3_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -81,5 +81,12 @@ namespace viewminder1
         {
 
         }
+
+        private void LinkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            ForgotPass fg = new ForgotPass();
+            this.Hide();
+            fg.Show();
+        }
     }
 }

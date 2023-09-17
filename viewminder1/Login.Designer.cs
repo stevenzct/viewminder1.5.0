@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
-            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.guna2DragControl1 = new Guna.UI2.WinForms.Guna2DragControl(this.components);
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
@@ -56,10 +55,6 @@
             this.guna2Elipse1.BorderRadius = 10;
             this.guna2Elipse1.TargetControl = this;
             // 
-            // guna2Elipse2
-            // 
-            this.guna2Elipse2.TargetControl = this;
-            // 
             // guna2DragControl1
             // 
             this.guna2DragControl1.TargetControl = null;
@@ -79,6 +74,7 @@
             // 
             // guna2ShadowPanel1
             // 
+            this.guna2ShadowPanel1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2ShadowPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2ShadowPanel1.Controls.Add(this.guna2HtmlLabel1);
             this.guna2ShadowPanel1.Controls.Add(this.linkLabel2);
@@ -87,7 +83,7 @@
             this.guna2ShadowPanel1.Controls.Add(this.guna2TextBox5);
             this.guna2ShadowPanel1.Controls.Add(this.guna2TextBox6);
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel1.Location = new System.Drawing.Point(513, 224);
+            this.guna2ShadowPanel1.Location = new System.Drawing.Point(443, 222);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.Radius = 6;
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
@@ -119,6 +115,7 @@
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "Forgot your password?";
             this.linkLabel2.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(126)))), ((int)(((byte)(255)))));
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LinkLabel2_LinkClicked);
             // 
             // guna2Button2
             // 
@@ -308,7 +305,6 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
-        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
         private Guna.UI2.WinForms.Guna2DragControl guna2DragControl1;
         private Guna.UI2.WinForms.Guna2ShadowPanel guna2ShadowPanel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;

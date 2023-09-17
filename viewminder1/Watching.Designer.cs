@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -42,9 +44,9 @@
             this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -53,24 +55,49 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel3
             // 
+            this.guna2Panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Panel3.BackColor = System.Drawing.Color.White;
             this.guna2Panel3.BorderRadius = 9;
             this.guna2Panel3.Controls.Add(this.guna2PictureBox4);
             this.guna2Panel3.Controls.Add(this.guna2PictureBox3);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
             this.guna2Panel3.Size = new System.Drawing.Size(1227, 51);
             this.guna2Panel3.TabIndex = 5;
             this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.Guna2Panel3_Paint);
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.guna2PictureBox4.Image = global::viewminder1.Properties.Resources.notifications;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(1131, 12);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.ShadowDecoration.Parent = this.guna2PictureBox4;
+            this.guna2PictureBox4.Size = new System.Drawing.Size(24, 24);
+            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox4.TabIndex = 6;
+            this.guna2PictureBox4.TabStop = false;
+            this.guna2PictureBox4.Click += new System.EventHandler(this.Guna2PictureBox4_Click);
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.guna2PictureBox3.Image = global::viewminder1.Properties.Resources.profile;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(1173, 12);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
+            this.guna2PictureBox3.Size = new System.Drawing.Size(24, 24);
+            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox3.TabIndex = 5;
+            this.guna2PictureBox3.TabStop = false;
+            this.guna2PictureBox3.Click += new System.EventHandler(this.Guna2PictureBox3_Click);
             // 
             // guna2HtmlLabel1
             // 
@@ -117,7 +144,7 @@
             // 
             this.guna2Panel1.AutoRoundedCorners = true;
             this.guna2Panel1.BackgroundImage = global::viewminder1.Properties.Resources.Group_26092561;
-            this.guna2Panel1.BorderRadius = 16;
+            this.guna2Panel1.BorderRadius = 189;
             this.guna2Panel1.BorderThickness = 6;
             this.guna2Panel1.Cursor = System.Windows.Forms.Cursors.Default;
             this.guna2Panel1.Location = new System.Drawing.Point(25, 113);
@@ -211,32 +238,6 @@
             this.guna2PictureBox1.TabIndex = 7;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.guna2PictureBox4.Image = global::viewminder1.Properties.Resources.notifications;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(1131, 12);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.ShadowDecoration.Parent = this.guna2PictureBox4;
-            this.guna2PictureBox4.Size = new System.Drawing.Size(24, 24);
-            this.guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox4.TabIndex = 6;
-            this.guna2PictureBox4.TabStop = false;
-            this.guna2PictureBox4.Click += new System.EventHandler(this.Guna2PictureBox4_Click);
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.guna2PictureBox3.Image = global::viewminder1.Properties.Resources.profile;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(1173, 12);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.ShadowDecoration.Parent = this.guna2PictureBox3;
-            this.guna2PictureBox3.Size = new System.Drawing.Size(24, 24);
-            this.guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox3.TabIndex = 5;
-            this.guna2PictureBox3.TabStop = false;
-            this.guna2PictureBox3.Click += new System.EventHandler(this.Guna2PictureBox3_Click);
-            // 
             // Watching
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -262,6 +263,8 @@
             this.Load += new System.EventHandler(this.Watching_Load);
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -270,8 +273,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
