@@ -113,7 +113,7 @@
             // 
             this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel2.Font = new System.Drawing.Font("Aileron Bold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(25, 80);
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(25, 70);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             this.guna2HtmlLabel2.Size = new System.Drawing.Size(81, 27);
             this.guna2HtmlLabel2.TabIndex = 6;
@@ -201,7 +201,7 @@
             // guna2PictureBox6
             // 
             this.guna2PictureBox6.Image = global::viewminder1.Properties.Resources.cam4;
-            this.guna2PictureBox6.Location = new System.Drawing.Point(228, 86);
+            this.guna2PictureBox6.Location = new System.Drawing.Point(228, 76);
             this.guna2PictureBox6.Name = "guna2PictureBox6";
             this.guna2PictureBox6.ShadowDecoration.Parent = this.guna2PictureBox6;
             this.guna2PictureBox6.Size = new System.Drawing.Size(16, 16);
@@ -211,7 +211,7 @@
             // guna2PictureBox5
             // 
             this.guna2PictureBox5.Image = global::viewminder1.Properties.Resources.cam3;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(193, 86);
+            this.guna2PictureBox5.Location = new System.Drawing.Point(193, 76);
             this.guna2PictureBox5.Name = "guna2PictureBox5";
             this.guna2PictureBox5.ShadowDecoration.Parent = this.guna2PictureBox5;
             this.guna2PictureBox5.Size = new System.Drawing.Size(16, 16);
@@ -221,7 +221,7 @@
             // guna2PictureBox2
             // 
             this.guna2PictureBox2.Image = global::viewminder1.Properties.Resources.cam2;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(156, 86);
+            this.guna2PictureBox2.Location = new System.Drawing.Point(156, 76);
             this.guna2PictureBox2.Name = "guna2PictureBox2";
             this.guna2PictureBox2.ShadowDecoration.Parent = this.guna2PictureBox2;
             this.guna2PictureBox2.Size = new System.Drawing.Size(16, 16);
@@ -231,7 +231,7 @@
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = global::viewminder1.Properties.Resources.cam1;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(122, 86);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(122, 76);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
             this.guna2PictureBox1.ShadowDecoration.Parent = this.guna2PictureBox1;
             this.guna2PictureBox1.Size = new System.Drawing.Size(16, 16);

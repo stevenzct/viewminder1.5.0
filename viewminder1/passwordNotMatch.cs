@@ -16,5 +16,13 @@ namespace viewminder1
         {
             InitializeComponent();
         }
+
+        private void Guna2Button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            NewPassword np = new NewPassword();
+            np.Show();
+
+        }
     }
 }

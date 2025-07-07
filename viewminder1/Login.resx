@@ -120,6 +120,30 @@
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEA8AAAEAIAAkBAAAFgAAACgAAAAQAAAAHgAAAAEAIAAAAAAAwAMAABMLAAATCwAAAAAAAAAA
+        AAD/+e/f//rv///67///+u////rv///67///+u////rv///67///+u////rv///67///+u////rv///6
+        7///+u/f//rv///67///toH//5dQ//+QRP//kET//59c///r1///8uP//651//+XUP//kET//5BE//+n
+        aP//69f///rv///67///1LL//4Es//+BLP//gSz//4Es//+BLP//rnX//8WZ//+BLP//gSz//4Es//+B
+        LP//gSz//7aB///67///+u///72N//+BLP//gSz//4Es//+BLP//gSz//59c//+udf//gSz//4Es//+B
+        LP//gSz//4Es//+fXP//+u////rv//+9jf//gSz//4Es//+BLP//gSz//4Es//+fXP//rnX//4Es//+B
+        LP//gSz//4Es//+BLP//n1z///rv///67///vY3//4Es//+BLP//gSz//4Es//+BLP//p2n//7aB//+B
+        LP//gSz//4Es//+BLP//gSz//6dp///67///+u///+vW//+QRP//gSz//4Es//+BLP//gSz//8Wa///r
+        1v//iTj//4Es//+BLP//gSz//4Es///cvv//+u////rv///67///8uL//9u+///bvv//277//+vW///6
+        7///+u////Li///bvv//277//9u+///r1v//+u////rv///67///+u////rv///67///zab///rv///6
+        7///+u////Lj//+QRP//gSz//4Es//+BLP//kET//+vX///67///+u////rv///67///+u///4k4///c
+        vv//+u////rv//+9jf//gSz//4Es//+BLP//gSz//4Es//+udf//+u////rv///67///zab//6do//+B
+        LP//mFD//76N///y4///rnX//4Es//+BLP//gSz//4Es//+BLP//n1z///rv///67///8uL//8ym//+f
+        Xf//gSz//5BE///Fmv//69b//651//+BLP//gSz//4Es//+BLP//gSz//59c///67///+u////rv///6
+        7///+u///5BE///cvv//+u////rv//+9jf//gSz//4Es//+BLP//gSz//4Es//+udf//+u////rv///6
+        7///+u////rv//+2gf//+u////rv///67///69b//5BE//+BLP//gSz//4Es//+QRP//69b///rv///5
+        79//+u////rv///67///+u////rv///67///+u////rv///67///6tb//+rW///q1v//+u////rv///6
+        798AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAA=
+</value>
+  </data>
   <metadata name="guna2DragControl1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>381, 17</value>
   </metadata>

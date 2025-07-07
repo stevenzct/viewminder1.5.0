@@ -33,9 +33,16 @@ namespace viewminder1
           
         }
 
-        private void Guna2PictureBox1_Click(object sender, EventArgs e)
+        private void Guna2Button2_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void Guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login lg = new Login();
+            lg.Show();
         }
     }
 }

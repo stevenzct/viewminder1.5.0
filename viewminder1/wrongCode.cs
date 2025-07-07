@@ -41,5 +41,27 @@ namespace viewminder1
         {
 
         }
+
+        private void Guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            ForgotPass fg = new ForgotPass();
+            fg.Show();
+        }
+
+        private void Guna2HtmlLabel1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Guna2HtmlLabel2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Guna2PictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

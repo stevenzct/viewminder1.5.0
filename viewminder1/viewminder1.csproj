@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,12 +47,16 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Group-2609312.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2">
       <HintPath>..\..\..\..\Documents\vs 2019\guna ui\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
     <Reference Include="System.Messaging" />
@@ -52,12 +71,105 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="adminAddedSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminAddedSuccess.Designer.cs">
+      <DependentUpon>adminAddedSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDataSet.cs">
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="adminDeletedSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminDeletedSuccess.Designer.cs">
+      <DependentUpon>adminDeletedSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminEditedSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminEditedSuccess.Designer.cs">
+      <DependentUpon>adminEditedSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminProfileUpdatedSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminProfileUpdatedSuccess.Designer.cs">
+      <DependentUpon>adminProfileUpdatedSuccess.cs</DependentUpon>
+    </Compile>
     <Compile Include="Archive.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Archive.Designer.cs">
       <DependentUpon>Archive.cs</DependentUpon>
     </Compile>
+    <Compile Include="codeSent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="codeSent.Designer.cs">
+      <DependentUpon>codeSent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmAccDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmAccDelete.Designer.cs">
+      <DependentUpon>confirmAccDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmAccEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmAccEdit.Designer.cs">
+      <DependentUpon>confirmAccEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmLogout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmLogout.Designer.cs">
+      <DependentUpon>confirmLogout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmLogoutSA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmLogoutSA.Designer.cs">
+      <DependentUpon>confirmLogoutSA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmMsgDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmMsgDelete.Designer.cs">
+      <DependentUpon>confirmMsgDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmNotifDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmNotifDelete.Designer.cs">
+      <DependentUpon>confirmNotifDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmPin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmPin.Designer.cs">
+      <DependentUpon>confirmPin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="confirmVidDelete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="confirmVidDelete.Designer.cs">
+      <DependentUpon>confirmVidDelete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deleteSuccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleteSuccess.Designer.cs">
+      <DependentUpon>deleteSuccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Guna2PictureBox1_Click.cs" />
     <Compile Include="incorrectEmail.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +188,26 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Models\IUserRepository.cs" />
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="newAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newAdmin.Designer.cs">
+      <DependentUpon>newAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="superAdmn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="superAdmn.Designer.cs">
+      <DependentUpon>superAdmn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewNotification.Designer.cs">
+      <DependentUpon>viewNotification.cs</DependentUpon>
+    </Compile>
     <Compile Include="NewPassword.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,23 +220,11 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Logout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Logout.Designer.cs">
-      <DependentUpon>Logout.cs</DependentUpon>
-    </Compile>
     <Compile Include="Notification.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Notification.Designer.cs">
       <DependentUpon>Notification.cs</DependentUpon>
-    </Compile>
-    <Compile Include="codeSentSuccess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="codeSentSuccess.Designer.cs">
-      <DependentUpon>codeSentSuccess.cs</DependentUpon>
     </Compile>
     <Compile Include="passwordNotMatch.cs">
       <SubType>Form</SubType>
@@ -112,6 +232,7 @@
     <Compile Include="passwordNotMatch.Designer.cs">
       <DependentUpon>passwordNotMatch.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presenters\UserPresenter.cs" />
     <Compile Include="Profile.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,12 +253,36 @@
     <Compile Include="Sms.Designer.cs">
       <DependentUpon>Sms.cs</DependentUpon>
     </Compile>
-    <Compile Include="txtEmail\Text.cs" />
-    <Compile Include="verifyCode.cs">
+    <Compile Include="superA.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="verifyCode.Designer.cs">
-      <DependentUpon>verifyCode.cs</DependentUpon>
+    <Compile Include="superA.Designer.cs">
+      <DependentUpon>superA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="superAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="superAdmin.Designer.cs">
+      <DependentUpon>superAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TextEventArgs.cs" />
+    <Compile Include="txtEmail\Text.cs" />
+    <Compile Include="viewVideo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewVideo.Designer.cs">
+      <DependentUpon>viewVideo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewMessage.Designer.cs">
+      <DependentUpon>viewMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IUserView.cs" />
+    <Compile Include="Views\UserView.cs" />
+    <Compile Include="Views\UserView.Designer.cs">
+      <DependentUpon>UserView.cs</DependentUpon>
     </Compile>
     <Compile Include="Watching.cs">
       <SubType>Form</SubType>
@@ -157,8 +302,52 @@
     <Compile Include="wrong_credentials.Designer.cs">
       <DependentUpon>wrong_credentials.cs</DependentUpon>
     </Compile>
+    <Compile Include="_Repositories\BaseRepository.cs" />
+    <Compile Include="_Repositories\UserRepository.cs" />
+    <EmbeddedResource Include="adminAddedSuccess.resx">
+      <DependentUpon>adminAddedSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminDeletedSuccess.resx">
+      <DependentUpon>adminDeletedSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminEditedSuccess.resx">
+      <DependentUpon>adminEditedSuccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminProfileUpdatedSuccess.resx">
+      <DependentUpon>adminProfileUpdatedSuccess.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Archive.resx">
       <DependentUpon>Archive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="codeSent.resx">
+      <DependentUpon>codeSent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmAccDelete.resx">
+      <DependentUpon>confirmAccDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmAccEdit.resx">
+      <DependentUpon>confirmAccEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmLogout.resx">
+      <DependentUpon>confirmLogout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmLogoutSA.resx">
+      <DependentUpon>confirmLogoutSA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmMsgDelete.resx">
+      <DependentUpon>confirmMsgDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmNotifDelete.resx">
+      <DependentUpon>confirmNotifDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmPin.resx">
+      <DependentUpon>confirmPin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="confirmVidDelete.resx">
+      <DependentUpon>confirmVidDelete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deleteSuccess.resx">
+      <DependentUpon>deleteSuccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="incorrectEmail.resx">
       <DependentUpon>incorrectEmail.cs</DependentUpon>
@@ -172,17 +361,20 @@
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Logout.resx">
-      <DependentUpon>Logout.cs</DependentUpon>
+    <EmbeddedResource Include="newAdmin.resx">
+      <DependentUpon>newAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="superAdmn.resx">
+      <DependentUpon>superAdmn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewNotification.resx">
+      <DependentUpon>viewNotification.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NewPassword.resx">
       <DependentUpon>NewPassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Notification.resx">
       <DependentUpon>Notification.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="codeSentSuccess.resx">
-      <DependentUpon>codeSentSuccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="passwordNotMatch.resx">
       <DependentUpon>passwordNotMatch.cs</DependentUpon>
@@ -206,8 +398,20 @@
     <EmbeddedResource Include="Sms.resx">
       <DependentUpon>Sms.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="verifyCode.resx">
-      <DependentUpon>verifyCode.cs</DependentUpon>
+    <EmbeddedResource Include="superA.resx">
+      <DependentUpon>superA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="superAdmin.resx">
+      <DependentUpon>superAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewVideo.resx">
+      <DependentUpon>viewVideo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewMessage.resx">
+      <DependentUpon>viewMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserView.resx">
+      <DependentUpon>UserView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Watching.resx">
       <DependentUpon>Watching.cs</DependentUpon>
@@ -218,6 +422,17 @@
     <EmbeddedResource Include="wrong_credentials.resx">
       <DependentUpon>wrong_credentials.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="AdminDataSet.xsc">
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AdminDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AdminDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AdminDataSet.xss">
+      <DependentUpon>AdminDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -297,5 +512,73 @@
   <ItemGroup>
     <None Include="Resources\material-symbols_check-circle.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back-blur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectangle 2439.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\material-symbols_check-circle %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Admin_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Admin.mdf</DependentUpon>
+    </Content>
+    <Content Include="Group-2609312.ico" />
+    <None Include="Resources\blackmaterial-symbols_settings-rounded.png" />
+    <None Include="Resources\material-symbols_settings-rounded.png" />
+    <None Include="Resources\bxs_magic-wand.png" />
+    <None Include="Resources\material-symbols_brightness-5.png" />
+    <None Include="Resources\fluent-mdl2_auto-enhance-on1.png" />
+    <None Include="Resources\material-symbols_deblur.png" />
+    <None Include="Resources\enhance white.png" />
+    <None Include="Resources\fluent-mdl2_auto-enhance-on.png" />
+    <None Include="Resources\hidepass1.png" />
+    <None Include="Resources\hidepass.png" />
+    <None Include="Resources\showpass.png" />
+    <None Include="Resources\material-symbols_sms-sharp %282%29.png" />
+    <None Include="Resources\clarity_login-solid %281%29.png" />
+    <None Include="Resources\ic_baseline-logout1.png" />
+    <None Include="Resources\material-symbols_archive1.png" />
+    <None Include="Resources\ic_sharp-textsms.png" />
+    <None Include="Resources\carbon_view-filled1.png" />
+    <None Include="Resources\ic_baseline-account-circle1.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\clarity_login-solid.png" />
+    <None Include="Resources\Vector.png" />
+    <None Include="Resources\carbon_checkbox.png" />
+    <None Include="Resources\ion_checkbox.png" />
+    <None Include="Resources\mdi_folder-play.png" />
+    <None Include="Resources\material-symbols_sms-sharp %281%29.png" />
+    <None Include="Resources\ic_round-warning.png" />
+    <None Include="Resources\Rectangle 2419 %281%292.jpg" />
+    <None Include="Resources\Rectangle 2419 %281%291.jpg" />
+    <None Include="Resources\Rectangle 2419 %281%29.jpg" />
+    <None Include="Resources\Rectangle 2419.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
