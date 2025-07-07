@@ -26,5 +26,17 @@ namespace viewminder1
         {
 
         }
+
+        private void Guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Guna2Button2_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
+        }
     }
 }
